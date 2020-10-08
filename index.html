@@ -4,17 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Tommy Forde's Portfolio</title>
+
+    <!-- linking bootstrap via css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- linking own css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- nav bar that toggles links to a burger menu when screen size smaller -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- "brand name" or in this case my name lol (main navbar title) -->
+        <span class="navbar-brand mb-0 h1">Tommy Forde</span>
+        <!-- collapsed menu for smaller page (draws content from ul) -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <h1>Hello, world!</h1>
+        <!-- content in nav as ul-->
+        <!-- !! NEED TO ADD LINKS !! -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <!-- 'active' for current page -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <br>
+    <main>
+        <!-- content body grid layout -->
+        <div class="container">
+            <!-- first row -->
+            <div class="row">
+                <!-- auto width for responsiveness -->
+                <div class='col-sm-9' id="main-content">
+                    <div>
+                        <h1>About Me</h1>
+                        <hr>
+                        <img src="https://via.placeholder.com/250" alt="placeholder for now">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis iste cum pariatur earum
+                            animi
+                            assumenda placeat voluptate odit numquam, quaerat quae officiis quam fugit, esse nisi
+                            tempore?
+                            Expedita, voluptatem eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Explicabo
+                            quas consectetur distinctio maxime quidem ipsam quia optio similique consequatur, corrupti
+                            iure
+                            magni vel cumque aperiam illo adipisci officia laudantium facilis.</p>
+                        <br>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, alias rem. Minus itaque
+                            quasi architecto asperiores natus, praesentium obcaecati nobis vel facilis sed consectetur
+                            magnam ipsum unde. Labore, ea in!
+                        </p>
+                    </div>
+                    <!-- add some "white" space -->
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+    </main>
 
-    <h3>Beutiful website isn't it?</h3>
+    <footer>
+        By: Tommy... Obviously. Look at the top?
+    </footer>
 
+    <!-- might not need well see -->
+    <!-- linking bootstrap via JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
