@@ -4,17 +4,11 @@ body {
 }
 
 img {
-    margin: 5px;
     float: left;
-}
-
-.container {
-    margin: 10px;
 }
 
 #main-content {
     background-color: #fff;
-    margin: 10px;
 }
 
 footer {
@@ -27,4 +21,15 @@ footer {
     color: #fff;
     text-align: left;
     font-size: 12px;
+}
+
+
+@media (max-width: 700px) {
+    body {
+        margin: 0;
+    }
+
+    img {
+        max-width: 100%;
+    }
 }
