@@ -59,6 +59,7 @@ footer {
     /* to make the text under photo on small screen (not weirdly all over */
     img {
         float: none;
+        width: 100%;
     }
 
     #formDiv {
