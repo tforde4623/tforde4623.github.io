@@ -7,7 +7,7 @@ header {
 
 body {
     background-image: url(cool-leafs.jpg);
-    height: auto;
+    height: 100vh;
     font-size: 18px;
     line-height: 34px;
 }
