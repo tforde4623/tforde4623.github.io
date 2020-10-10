@@ -1,4 +1,9 @@
-/* need to make text size bigger (decide text size on mobile too) */
+header {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
 
 body {
     background-image: url(cool-leafs.jpg);
@@ -19,6 +24,7 @@ img {
     border: black solid 1px;
     padding-bottom: 5px;
     margin: 8% auto 10% 5%;
+    margin-top: 100px;
 }
 
 #contentTitle {
@@ -48,9 +54,14 @@ footer {
         margin-top: 0%;
         margin-left: 0%;
         margin-bottom: 0%;
+        padding-bottom: 75px;
     }
     /* to make the text under photo on small screen (not weirdly all over */
     img {
         float: none;
+    }
+
+    #formDiv {
+        padding-top: 70px;
     }
 }
