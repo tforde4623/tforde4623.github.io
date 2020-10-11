@@ -1,1 +1,3 @@
 # tforde4623.github.io
+
+This aim of this project was to create a responsive portfolio type website. What does that mean? The website will dynamically change it's positioning and sizes to be optimal for all screen sizes, even mobile devices. This is done automatically with bootstrap (which was also a huge part of the project) and manually as well with some css media queries, and other styling tools. 
