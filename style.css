@@ -7,9 +7,13 @@ header {
 
 body {
     background-image: url(./images/cool-leafs.jpg);
-    height: 100vh;
     font-size: 18px;
     line-height: 34px;
+    /* got a little help with background sizing from grepper on google */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 img {
