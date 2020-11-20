@@ -29,6 +29,7 @@ img {
 
 .card img {
     min-width: 100%;
+    min-height: fit-content;
 }
 
 #main-content {
