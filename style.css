@@ -34,13 +34,15 @@ img {
 .card img {
     min-width: 100%;
     min-height: fit-content;
+    border-radius: 5px;
 }
 
 #main-content {
     background-color: #fff;
     border: black solid 1px;
     padding-bottom: 5px;
-    margin: 15% auto 10% 5%;
+    margin-top: 10%;
+    border-radius: 10px;
 }
 
 #contentTitle {
