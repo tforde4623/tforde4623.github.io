@@ -1,0 +1,40 @@
+Tommy Forde
+sltebr33zy@gmail.com
+708-308-7615
+My Portfolio: https://github.com/tforde4623
+My GitHub: https://github.com/tforde4623
+
+Some of the skills I have:
+Javascript
+Html
+Css
+bootstrap css framework
+jQuery
+MySQL
+MongoDB
+indexedDB / NoSQL databases
+Moment.js 
+JSON
+BASH/ZSH
+some apis including: open weather, edamam nutrition, mealdb
+ajax
+python (maybe)
+c++ (maybe)
+Node.js and node modules
+Express.js 
+bulma css framework
+
+
+3 projects:
+DecisiveKitchen
+Decisive kitchen is a web application that given an ingredient you have at home, or a location the dish originated in, will choose a recipe, just one which takes out the impossible element of having to pick one out of a hundred delicious looking meals, and give you all the instructions, ingredients required, nutritional elements, pictures, and a video to go along with it.
+
+Spas For Paws:
+Spas for paws is a scheduling app made for people who own a pet grooming company, and need a sleek easy way for people to add and edit appointments.
+
+Day Planner
+Day planner is an application, that helps you track your schedule at a 9-5 type job. It does this by colorizing time blocks, which you can input text into, and allow you to write down and track your meetings, deadlines, and appointments.
+
+Weather Dashboard
+Weather dashboard, will display current and 5 day weather. The app will keep your recent searches in memory, and will display them as options you can click on, and that becomes the current location of which the weather is displayed.
+
